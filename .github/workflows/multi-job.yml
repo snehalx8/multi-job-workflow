@@ -54,7 +54,7 @@ jobs:
         run: ./main
 
   cross-compile:
-    runs-on: ubuntu-
+    runs-on: ubuntu-latest
     needs: [ubuntu, windows, macos]
     steps:
       - name: Checkout code
